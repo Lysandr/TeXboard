@@ -1,0 +1,13 @@
+G04 Gerber job file.*
+%TF.FileFunction,JobInfo*%
+%TF.GenerationSoftware,Autodesk,EAGLE,9.1.2*%
+%TF.CreationDate,2018-08-12T18:09:38Z*%
+%TF.Part,Single*%
+%MOMM*%
+%TJ.B_Owner,Padraig Lysandrou <psl58@cornell.edu>*%
+%TJ.B_ID,texboard*%
+%TJ.B_LayerNum,2*%
+%TJ.B_Thickness,1.570000*%
+%TJ.B_Size_X,304.800000*%
+%TJ.B_Size_Y,116.840000*%
+M02*
