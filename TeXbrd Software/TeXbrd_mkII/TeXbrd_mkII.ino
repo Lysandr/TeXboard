@@ -17,7 +17,7 @@ byte colPins[COLS] = {19,14,15,16,17,25,26,21,20,12,11,10,9,8,22,23};
 byte rowPins[ROWS] = {2,3,4,5,6,7};
 unsigned int keys_pressed[6] = {0};
 unsigned int modifiers_pressed[2] = {0};
-int cycle_time_ms = 1;
+int cycle_time_ms = 2;
 int FXN_flag = 0;
 
 
@@ -33,7 +33,7 @@ unsigned int key_matrix[ROWS][COLS] = {
   {KEY_TAB,KEY_Q,KEY_W,KEY_E,KEY_R,KEY_T,KEY_Y,KEY_U,KEY_I,KEY_O,KEY_P,KEY_LEFT_BRACE,KEY_RIGHT_BRACE,KEY_BACKSLASH,KEY_NONE,KEY_NONE},
   {KEY_CAPS_LOCK,KEY_A,KEY_S,KEY_D,KEY_F,KEY_G,KEY_H,KEY_J,KEY_K,KEY_L,KEY_SEMICOLON,KEY_QUOTE,KEY_ENTER,KEY_NONE,KEY_NONE,KEY_NONE},
   {MODIFIERKEY_SHIFT,KEY_Z,KEY_X,KEY_C,KEY_V,KEY_B,KEY_N,KEY_M,KEY_COMMA,KEY_PERIOD,KEY_SLASH,MODIFIERKEY_RIGHT_SHIFT,KEY_NONE,KEY_NONE,KEY_NONE,KEY_NONE},
-  {MODIFIERKEY_CTRL,KEY_LEFT_GUI,MODIFIERKEY_ALT,KEY_SPACE,GREEK,KEY_FXN,MATH,MODIFIERKEY_RIGHT_CTRL,KEY_LEFT_ARROW,KEY_DOWN_ARROW,KEY_RIGHT_ARROW,KEY_NONE,KEY_NONE,KEY_UP_ARROW,KEY_NONE,KEY_NONE}
+  {MODIFIERKEY_CTRL,MODIFIERKEY_GUI,MODIFIERKEY_ALT,KEY_SPACE,GREEK,KEY_FXN,MATH,MODIFIERKEY_RIGHT_CTRL,KEY_LEFT_ARROW,KEY_DOWN_ARROW,KEY_RIGHT_ARROW,KEY_NONE,KEY_NONE,KEY_UP_ARROW,KEY_NONE,KEY_NONE}
 };
 
 
@@ -117,7 +117,6 @@ bool check_for_modifier(unsigned int key_to_lookat){
   return(false);
 }
 
-
 void remove_key(unsigned int key){
   if(key != 0){
     for(int i=0; i<6; i++){
@@ -150,7 +149,7 @@ void add_mod_list(unsigned int key){
   }
 }
 
-// remove the modifier
+// remove the modifier (out of both if we have to!)
 void remove_mod_list(unsigned int key){
   if(modifiers_pressed[0] == key){
     modifiers_pressed[0] = 0x00;
@@ -172,20 +171,22 @@ void debounce_key_matrix(int row, int col){
     }
   }
   
-  // Basically IF THE STATE OF A KEY HAS CHANGED:
+  // Basically figure out what to do after the debounce time delay
   if ((millis() - last_debounce_time[row][col]) > debounceDelay) {
-    // CHECK if the key is a classical modifier key (alt,ctrl,shft,gui)
+    // Check for new modifier being pressed
     if (state == 1 && check_for_modifier(key_to_lookat)){
       add_mod_list(key_to_lookat);
       Keyboard.set_modifier(modifiers_pressed[0] | modifiers_pressed[1]);
       Keyboard.send_now();
     }
+    // remove any stale modifiers
     else if (state !=1 && check_for_modifier(key_to_lookat)){
       remove_mod_list(key_to_lookat);
       Keyboard.set_modifier(modifiers_pressed[0] | modifiers_pressed[1]);
       Keyboard.send_now();
     }
-    else if((key_to_lookat!=KEY_FXN)&& state==1 && (millis()-time_since_last_TX[row][col]) > transmitDelay){
+    // If a key state is high, and passed the transmit delay, add that key to the queue
+    else if((key_to_lookat!=KEY_FXN) && state==1 && (millis()-time_since_last_TX[row][col]) > transmitDelay ){
       //Serial.println("key has been hit");
       add_key(key_to_lookat);
       if(FXN_flag && ((millis()-time_since_last_TX[row][col]) > 3*transmitDelay)){
@@ -193,10 +194,12 @@ void debounce_key_matrix(int row, int col){
       }
       time_since_last_TX[row][col] = millis();
     }
+    // otherwise remove any stale keypresses that we dont want
     else if(state !=1 && !check_for_modifier(key_to_lookat)){
       remove_key(key_to_lookat);
     }
   }
+  // Update the last known state of each key in the matrix
   last_button_state[row][col] = state;
 }
 
