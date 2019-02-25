@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.3.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -248,7 +248,7 @@
 <text x="273.812" y="102.108" size="1.778" layer="25" ratio="5">xtra</text>
 <wire x1="303.53" y1="116.84" x2="1.27" y2="116.84" width="0.1524" layer="20"/>
 <wire x1="1.27" y1="116.84" x2="0" y2="115.57" width="0.1524" layer="20" curve="90"/>
-<text x="100.457" y="3.429" size="2.54" layer="21" font="vector">TeXbrd mk2                 lysandrou2018</text>
+<text x="104.267" y="11.049" size="2.54" layer="21" font="vector">TIAK mk2                     lysandrou2018</text>
 <wire x1="303.53" y1="116.84" x2="361.95" y2="116.84" width="0.1524" layer="20"/>
 <wire x1="361.95" y1="116.84" x2="364.49" y2="114.3" width="0.1524" layer="20" curve="-90"/>
 <wire x1="364.49" y1="114.3" x2="364.49" y2="7.62" width="0.1524" layer="20"/>
@@ -260,6 +260,25 @@
 <wire x1="360.68" y1="3.81" x2="364.49" y2="7.62" width="0.1524" layer="20" curve="90"/>
 <wire x1="0" y1="115.57" x2="0" y2="6.35" width="0.1524" layer="20"/>
 <wire x1="0" y1="6.35" x2="2.54" y2="3.81" width="0.1524" layer="20" curve="90"/>
+<dimension x1="189.357" y1="97.536" x2="189.23" y2="3.81" x3="213.36150625" y3="50.640384375" textsize="1.778" layer="1"/>
+<dimension x1="75.057" y1="3.81" x2="75.057" y2="2.032" x3="72.39" y3="2.921" textsize="1.778" layer="1"/>
+<dimension x1="75.057" y1="3.81" x2="-0.000003125" y2="3.81" x3="37.528496875" y3="3.81" textsize="1.778" layer="1" dtype="radius"/>
+<dimension x1="-11.43" y1="116.84" x2="-11.43" y2="3.81" x3="-16.51" y3="60.325" textsize="1.778" layer="1"/>
+<dimension x1="364.49" y1="-33.02" x2="0" y2="-33.02" x3="182.245" y3="-31.75" textsize="1.778" layer="1"/>
+<dimension x1="344.17" y1="97.79" x2="344.17" y2="116.84" x3="375.92" y3="107.315" textsize="1.778" layer="1"/>
+<dimension x1="344.17" y1="21.59" x2="344.17" y2="116.84" x3="378.46" y3="69.215" textsize="1.778" layer="1"/>
+<dimension x1="344.17" y1="21.59" x2="364.49" y2="21.59" x3="354.33" y3="-1.27" textsize="1.778" layer="1"/>
+<dimension x1="344.17" y1="97.79" x2="364.49" y2="97.79" x3="354.33" y3="128.27" textsize="1.778" layer="1"/>
+<dimension x1="285.75" y1="64.77" x2="285.75" y2="116.84" x3="386.08" y3="90.805" textsize="1.778" layer="1"/>
+<dimension x1="285.75" y1="64.77" x2="364.49" y2="64.77" x3="325.12" y3="-3.81" textsize="1.778" layer="1"/>
+<dimension x1="189.357" y1="97.536" x2="189.357" y2="116.84" x3="203.2" y3="107.188" textsize="1.778" layer="1"/>
+<dimension x1="189.357" y1="97.536" x2="364.49" y2="97.536" x3="276.9235" y3="-7.62" textsize="1.778" layer="1"/>
+<dimension x1="170.18" y1="14.097" x2="170.18" y2="116.84" x3="392.43" y3="65.4685" textsize="1.778" layer="1"/>
+<dimension x1="170.18" y1="14.097" x2="364.49" y2="13.97" x3="267.31839375" y3="-11.368978125" textsize="1.778" layer="1"/>
+<dimension x1="48.387" y1="21.59" x2="364.49" y2="22.352" x3="206.52601875" y3="-14.33548125" textsize="1.778" layer="1"/>
+<dimension x1="48.387" y1="21.59" x2="48.26" y2="116.84" x3="47.0382625" y3="69.213284375" textsize="1.778" layer="1"/>
+<dimension x1="36.83" y1="97.79" x2="36.83" y2="116.84" x3="-3.81" y3="107.315" textsize="1.778" layer="1"/>
+<dimension x1="36.83" y1="97.79" x2="364.49" y2="97.79" x3="200.66" y3="-17.78" textsize="1.778" layer="1"/>
 </plain>
 <libraries>
 <library name="cherrymx">
@@ -672,494 +691,707 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U$1" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="36.449" y="69.088"/>
-<element name="U$2" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="55.499" y="69.088"/>
-<element name="U$3" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="74.549" y="69.088"/>
-<element name="U$4" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="93.599" y="69.088"/>
-<element name="U$5" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="112.649" y="69.088"/>
-<element name="U$6" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="131.699" y="69.088"/>
-<element name="U$7" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="150.749" y="69.088"/>
-<element name="U$8" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="169.799" y="69.088"/>
-<element name="U$9" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="188.849" y="69.088"/>
-<element name="U$10" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="207.899" y="69.088"/>
-<element name="U$11" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="226.949" y="69.088"/>
-<element name="U$12" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="245.999" y="69.088"/>
-<element name="U$13" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="269.748" y="69.088"/>
-<element name="D4" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="45.339" y="69.088" rot="R90">
+<element name="U$1" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="36.449" y="69.088" smashed="yes"/>
+<element name="U$2" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="55.499" y="69.088" smashed="yes"/>
+<element name="U$3" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="74.549" y="69.088" smashed="yes"/>
+<element name="U$4" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="93.599" y="69.088" smashed="yes"/>
+<element name="U$5" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="112.649" y="69.088" smashed="yes"/>
+<element name="U$6" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="131.699" y="69.088" smashed="yes"/>
+<element name="U$7" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="150.749" y="69.088" smashed="yes"/>
+<element name="U$8" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="169.799" y="69.088" smashed="yes"/>
+<element name="U$9" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="188.849" y="69.088" smashed="yes"/>
+<element name="U$10" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="207.899" y="69.088" smashed="yes"/>
+<element name="U$11" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="226.949" y="69.088" smashed="yes"/>
+<element name="U$12" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="245.999" y="69.088" smashed="yes"/>
+<element name="U$13" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="269.748" y="69.088" smashed="yes"/>
+<element name="D4" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="45.339" y="69.088" smashed="yes" rot="R90">
+<attribute name="NAME" x="44.069" y="66.802" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="45.339" y="69.088" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="45.339" y="69.088" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="48.006" y="66.802" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D5" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="64.389" y="69.088" rot="R90">
+<element name="D5" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="64.389" y="69.088" smashed="yes" rot="R90">
+<attribute name="NAME" x="63.119" y="66.802" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="64.389" y="69.088" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="64.389" y="69.088" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="67.056" y="66.802" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D6" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="83.439" y="69.088" rot="R90">
+<element name="D6" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="83.439" y="69.088" smashed="yes" rot="R90">
+<attribute name="NAME" x="82.169" y="66.802" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="83.439" y="69.088" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="83.439" y="69.088" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="86.106" y="66.802" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D7" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="102.489" y="69.088" rot="R90">
+<element name="D7" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="102.489" y="69.088" smashed="yes" rot="R90">
+<attribute name="NAME" x="101.219" y="66.802" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="102.489" y="69.088" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="102.489" y="69.088" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="105.156" y="66.802" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D8" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="121.539" y="69.088" rot="R90">
+<element name="D8" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="121.539" y="69.088" smashed="yes" rot="R90">
+<attribute name="NAME" x="120.269" y="66.802" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="121.539" y="69.088" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="121.539" y="69.088" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="124.206" y="66.802" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D9" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="140.589" y="69.088" rot="R90">
+<element name="D9" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="140.589" y="69.088" smashed="yes" rot="R90">
+<attribute name="NAME" x="139.319" y="66.802" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="140.589" y="69.088" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="140.589" y="69.088" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="143.256" y="66.802" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D10" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="159.639" y="69.088" rot="R90">
+<element name="D10" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="159.639" y="69.088" smashed="yes" rot="R90">
+<attribute name="NAME" x="158.369" y="66.802" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="159.639" y="69.088" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="159.639" y="69.088" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="162.306" y="66.802" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D11" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="178.689" y="69.088" rot="R90">
+<element name="D11" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="178.689" y="69.088" smashed="yes" rot="R90">
+<attribute name="NAME" x="177.419" y="66.802" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="178.689" y="69.088" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="178.689" y="69.088" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="181.356" y="66.802" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D12" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="197.739" y="69.088" rot="R90">
+<element name="D12" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="197.739" y="69.088" smashed="yes" rot="R90">
+<attribute name="NAME" x="196.469" y="66.802" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="197.739" y="69.088" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="197.739" y="69.088" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="200.406" y="66.802" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D13" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="216.789" y="69.088" rot="R90">
+<element name="D13" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="216.789" y="69.088" smashed="yes" rot="R90">
+<attribute name="NAME" x="215.519" y="66.802" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="216.789" y="69.088" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="216.789" y="69.088" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="219.456" y="66.802" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D14" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="235.839" y="69.088" rot="R90">
+<element name="D14" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="235.839" y="69.088" smashed="yes" rot="R90">
+<attribute name="NAME" x="234.569" y="66.802" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="235.839" y="69.088" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="235.839" y="69.088" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="238.506" y="66.802" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D15" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="254.889" y="69.088" rot="R90">
+<element name="D15" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="254.889" y="69.088" smashed="yes" rot="R90">
+<attribute name="NAME" x="253.619" y="66.802" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="254.889" y="69.088" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="254.889" y="69.088" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="257.556" y="66.802" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D16" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="278.892" y="69.088" rot="R90">
+<element name="D16" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="278.892" y="69.088" smashed="yes" rot="R90">
+<attribute name="NAME" x="277.622" y="66.802" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="278.892" y="69.088" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="278.892" y="69.088" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="281.559" y="66.802" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="U$14" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="41.021" y="50.038"/>
-<element name="U$15" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="60.071" y="50.038"/>
-<element name="U$16" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="79.121" y="50.038"/>
-<element name="U$17" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="98.171" y="50.038"/>
-<element name="U$18" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="117.221" y="50.038"/>
-<element name="U$19" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="136.271" y="50.038"/>
-<element name="U$20" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="155.321" y="50.038"/>
-<element name="U$21" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="174.371" y="50.038"/>
-<element name="U$22" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="193.421" y="50.038"/>
-<element name="U$23" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="212.471" y="50.038"/>
-<element name="U$24" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="231.521" y="50.038"/>
-<element name="D17" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="49.911" y="50.038" rot="R90">
+<element name="U$14" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="41.021" y="50.038" smashed="yes"/>
+<element name="U$15" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="60.071" y="50.038" smashed="yes"/>
+<element name="U$16" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="79.121" y="50.038" smashed="yes"/>
+<element name="U$17" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="98.171" y="50.038" smashed="yes"/>
+<element name="U$18" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="117.221" y="50.038" smashed="yes"/>
+<element name="U$19" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="136.271" y="50.038" smashed="yes"/>
+<element name="U$20" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="155.321" y="50.038" smashed="yes"/>
+<element name="U$21" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="174.371" y="50.038" smashed="yes"/>
+<element name="U$22" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="193.421" y="50.038" smashed="yes"/>
+<element name="U$23" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="212.471" y="50.038" smashed="yes"/>
+<element name="U$24" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="231.521" y="50.038" smashed="yes"/>
+<element name="D17" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="49.911" y="50.038" smashed="yes" rot="R90">
+<attribute name="NAME" x="48.641" y="47.752" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="181.991" y="17.018" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="181.991" y="17.018" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="52.578" y="47.752" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D18" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="68.961" y="50.038" rot="R90">
+<element name="D18" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="68.961" y="50.038" smashed="yes" rot="R90">
+<attribute name="NAME" x="67.691" y="47.752" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="206.121" y="5.588" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="206.121" y="5.588" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="71.628" y="47.752" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D19" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="88.011" y="50.038" rot="R90">
+<element name="D19" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="88.011" y="50.038" smashed="yes" rot="R90">
+<attribute name="NAME" x="86.741" y="47.752" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="213.741" y="50.038" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="213.741" y="50.038" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="90.678" y="47.752" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D20" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="107.061" y="50.038" rot="R90">
+<element name="D20" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="107.061" y="50.038" smashed="yes" rot="R90">
+<attribute name="NAME" x="105.791" y="47.752" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="237.871" y="38.608" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="237.871" y="38.608" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="109.728" y="47.752" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D21" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="126.111" y="50.038" rot="R90">
+<element name="D21" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="126.111" y="50.038" smashed="yes" rot="R90">
+<attribute name="NAME" x="124.841" y="47.752" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="262.001" y="27.178" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="262.001" y="27.178" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="128.778" y="47.752" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D22" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="145.161" y="50.038" rot="R90">
+<element name="D22" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="145.161" y="50.038" smashed="yes" rot="R90">
+<attribute name="NAME" x="143.891" y="47.752" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="286.131" y="15.748" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="286.131" y="15.748" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="147.828" y="47.752" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D23" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="164.211" y="50.038" rot="R90">
+<element name="D23" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="164.211" y="50.038" smashed="yes" rot="R90">
+<attribute name="NAME" x="162.941" y="47.752" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="310.261" y="4.318" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="310.261" y="4.318" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="166.878" y="47.752" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D24" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="183.261" y="50.038" rot="R90">
+<element name="D24" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="183.261" y="50.038" smashed="yes" rot="R90">
+<attribute name="NAME" x="181.991" y="47.752" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="329.311" y="50.038" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="329.311" y="50.038" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="185.928" y="47.752" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D25" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="202.311" y="50.038" rot="R90">
+<element name="D25" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="202.311" y="50.038" smashed="yes" rot="R90">
+<attribute name="NAME" x="201.041" y="47.752" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="353.441" y="38.608" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="353.441" y="38.608" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="204.978" y="47.752" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D26" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="221.361" y="50.038" rot="R90">
+<element name="D26" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="221.361" y="50.038" smashed="yes" rot="R90">
+<attribute name="NAME" x="220.091" y="47.752" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="377.571" y="27.178" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="377.571" y="27.178" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="224.028" y="47.752" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D27" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="240.411" y="50.038" rot="R90">
+<element name="D27" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="240.411" y="50.038" smashed="yes" rot="R90">
+<attribute name="NAME" x="239.141" y="47.752" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="401.701" y="15.748" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="401.701" y="15.748" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="243.078" y="47.752" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="U$25" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="50.546" y="30.988"/>
-<element name="U$26" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="69.596" y="30.988"/>
-<element name="U$27" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="88.646" y="30.988"/>
-<element name="U$28" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="107.696" y="30.988"/>
-<element name="U$29" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="126.746" y="30.988"/>
-<element name="U$30" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="145.796" y="30.988"/>
-<element name="U$31" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="164.846" y="30.988"/>
-<element name="U$32" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="183.896" y="30.988"/>
-<element name="U$33" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="202.946" y="30.988"/>
-<element name="U$34" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="221.996" y="30.988"/>
-<element name="D28" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="59.436" y="30.988" rot="R90">
+<element name="U$25" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="50.546" y="30.988" smashed="yes"/>
+<element name="U$26" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="69.596" y="30.988" smashed="yes"/>
+<element name="U$27" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="88.646" y="30.988" smashed="yes"/>
+<element name="U$28" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="107.696" y="30.988" smashed="yes"/>
+<element name="U$29" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="126.746" y="30.988" smashed="yes"/>
+<element name="U$30" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="145.796" y="30.988" smashed="yes"/>
+<element name="U$31" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="164.846" y="30.988" smashed="yes"/>
+<element name="U$32" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="183.896" y="30.988" smashed="yes"/>
+<element name="U$33" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="202.946" y="30.988" smashed="yes"/>
+<element name="U$34" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="221.996" y="30.988" smashed="yes"/>
+<element name="D28" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="59.436" y="30.988" smashed="yes" rot="R90">
+<attribute name="NAME" x="58.166" y="28.702" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="175.006" y="14.478" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="175.006" y="14.478" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="62.103" y="28.702" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D29" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="78.486" y="30.988" rot="R90">
+<element name="D29" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="78.486" y="30.988" smashed="yes" rot="R90">
+<attribute name="NAME" x="77.216" y="28.702" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="199.136" y="3.048" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="199.136" y="3.048" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="81.153" y="28.702" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D30" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="97.536" y="30.988" rot="R90">
+<element name="D30" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="97.536" y="30.988" smashed="yes" rot="R90">
+<attribute name="NAME" x="96.266" y="28.702" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="223.266" y="-8.382" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="223.266" y="-8.382" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="100.203" y="28.702" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D31" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="116.586" y="30.988" rot="R90">
+<element name="D31" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="116.586" y="30.988" smashed="yes" rot="R90">
+<attribute name="NAME" x="115.316" y="28.702" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="230.886" y="30.988" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="230.886" y="30.988" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="119.253" y="28.702" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D32" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="135.636" y="30.988" rot="R90">
+<element name="D32" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="135.636" y="30.988" smashed="yes" rot="R90">
+<attribute name="NAME" x="134.366" y="28.702" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="255.016" y="19.558" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="255.016" y="19.558" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="138.303" y="28.702" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D33" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="154.686" y="30.988" rot="R90">
+<element name="D33" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="154.686" y="30.988" smashed="yes" rot="R90">
+<attribute name="NAME" x="153.416" y="28.702" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="279.146" y="8.128" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="279.146" y="8.128" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="157.353" y="28.702" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D34" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="173.736" y="30.988" rot="R90">
+<element name="D34" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="173.736" y="30.988" smashed="yes" rot="R90">
+<attribute name="NAME" x="172.466" y="28.702" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="303.276" y="-3.302" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="303.276" y="-3.302" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="176.403" y="28.702" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D35" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="192.786" y="30.988" rot="R90">
+<element name="D35" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="192.786" y="30.988" smashed="yes" rot="R90">
+<attribute name="NAME" x="191.516" y="28.702" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="327.406" y="-14.732" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="327.406" y="-14.732" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="195.453" y="28.702" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D36" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="211.836" y="30.988" rot="R90">
+<element name="D36" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="211.836" y="30.988" smashed="yes" rot="R90">
+<attribute name="NAME" x="210.566" y="28.702" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="346.456" y="30.988" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="346.456" y="30.988" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="214.503" y="28.702" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D37" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="230.886" y="30.988" rot="R90">
+<element name="D37" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="230.886" y="30.988" smashed="yes" rot="R90">
+<attribute name="NAME" x="229.616" y="28.702" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="370.586" y="19.558" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="370.586" y="19.558" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="233.553" y="28.702" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="U$36" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="12.7" y="69.088"/>
-<element name="U$37" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="14.859" y="50.038"/>
-<element name="D1" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="21.463" y="69.088" rot="R90">
+<element name="U$36" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="12.7" y="69.088" smashed="yes"/>
+<element name="U$37" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="14.859" y="50.038" smashed="yes"/>
+<element name="D1" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="21.463" y="69.088" smashed="yes" rot="R90">
+<attribute name="NAME" x="20.193" y="66.802" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="21.463" y="69.088" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="21.463" y="69.088" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="24.13" y="66.802" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D2" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="23.749" y="49.657" rot="R90">
+<element name="D2" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="23.749" y="49.657" smashed="yes" rot="R90">
+<attribute name="NAME" x="22.479" y="47.371" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="23.749" y="49.657" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="23.749" y="49.657" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="26.416" y="47.371" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D3" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="41.021" y="30.607" rot="MR90">
+<element name="D3" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="41.021" y="30.607" smashed="yes" rot="MR90">
+<attribute name="NAME" x="42.291" y="28.321" size="1.27" layer="26" ratio="10" rot="MR90"/>
 <attribute name="SPICEMODEL" value="diode" x="41.021" y="30.607" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="41.021" y="30.607" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="38.354" y="28.321" size="1.27" layer="28" ratio="10" rot="MR90"/>
 </element>
-<element name="D38" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="279.019" y="31.242" rot="MR90">
+<element name="D38" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="279.019" y="31.242" smashed="yes" rot="MR90">
+<attribute name="NAME" x="280.289" y="28.956" size="1.27" layer="26" ratio="10" rot="MR90"/>
 <attribute name="SPICEMODEL" value="diode" x="279.019" y="31.242" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="279.019" y="31.242" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="276.352" y="28.956" size="1.27" layer="28" ratio="10" rot="MR90"/>
 </element>
-<element name="D39" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="279.019" y="49.784" rot="R90">
+<element name="D39" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="279.019" y="49.784" smashed="yes" rot="R90">
+<attribute name="NAME" x="277.749" y="47.498" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="279.019" y="49.784" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="279.019" y="49.784" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="281.686" y="47.498" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="U$41" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="27.432" y="88.138"/>
-<element name="U$42" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="46.482" y="88.138"/>
-<element name="U$43" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="65.532" y="88.138"/>
-<element name="U$44" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="84.582" y="88.138"/>
-<element name="U$45" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="103.632" y="88.138"/>
-<element name="U$46" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="122.682" y="88.138"/>
-<element name="U$47" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="141.732" y="88.138"/>
-<element name="U$48" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="160.782" y="88.138"/>
-<element name="U$49" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="179.832" y="88.138"/>
-<element name="U$50" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="198.882" y="88.138"/>
-<element name="U$51" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="217.932" y="88.138"/>
-<element name="U$52" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="236.982" y="88.138"/>
-<element name="D40" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="36.322" y="88.138" rot="R90">
+<element name="U$41" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="27.432" y="88.138" smashed="yes"/>
+<element name="U$42" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="46.482" y="88.138" smashed="yes"/>
+<element name="U$43" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="65.532" y="88.138" smashed="yes"/>
+<element name="U$44" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="84.582" y="88.138" smashed="yes"/>
+<element name="U$45" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="103.632" y="88.138" smashed="yes"/>
+<element name="U$46" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="122.682" y="88.138" smashed="yes"/>
+<element name="U$47" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="141.732" y="88.138" smashed="yes"/>
+<element name="U$48" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="160.782" y="88.138" smashed="yes"/>
+<element name="U$49" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="179.832" y="88.138" smashed="yes"/>
+<element name="U$50" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="198.882" y="88.138" smashed="yes"/>
+<element name="U$51" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="217.932" y="88.138" smashed="yes"/>
+<element name="U$52" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="236.982" y="88.138" smashed="yes"/>
+<element name="D40" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="36.322" y="88.138" smashed="yes" rot="R90">
+<attribute name="NAME" x="35.052" y="85.852" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="201.422" y="55.118" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="201.422" y="55.118" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="38.989" y="85.852" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D41" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="55.372" y="88.138" rot="R90">
+<element name="D41" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="55.372" y="88.138" smashed="yes" rot="R90">
+<attribute name="NAME" x="54.102" y="85.852" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="225.552" y="43.688" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="225.552" y="43.688" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="58.039" y="85.852" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D42" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="74.422" y="88.138" rot="R90">
+<element name="D42" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="74.422" y="88.138" smashed="yes" rot="R90">
+<attribute name="NAME" x="73.152" y="85.852" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="249.682" y="32.258" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="249.682" y="32.258" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="77.089" y="85.852" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D43" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="93.472" y="88.138" rot="R90">
+<element name="D43" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="93.472" y="88.138" smashed="yes" rot="R90">
+<attribute name="NAME" x="92.202" y="85.852" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="257.302" y="88.138" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="257.302" y="88.138" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="96.139" y="85.852" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D44" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="112.522" y="88.138" rot="R90">
+<element name="D44" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="112.522" y="88.138" smashed="yes" rot="R90">
+<attribute name="NAME" x="111.252" y="85.852" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="281.432" y="76.708" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="281.432" y="76.708" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="115.189" y="85.852" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D45" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="131.572" y="88.138" rot="R90">
+<element name="D45" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="131.572" y="88.138" smashed="yes" rot="R90">
+<attribute name="NAME" x="130.302" y="85.852" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="305.562" y="65.278" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="305.562" y="65.278" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="134.239" y="85.852" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D46" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="150.622" y="88.138" rot="R90">
+<element name="D46" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="150.622" y="88.138" smashed="yes" rot="R90">
+<attribute name="NAME" x="149.352" y="85.852" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="329.692" y="53.848" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="329.692" y="53.848" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="153.289" y="85.852" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D47" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="169.672" y="88.138" rot="R90">
+<element name="D47" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="169.672" y="88.138" smashed="yes" rot="R90">
+<attribute name="NAME" x="168.402" y="85.852" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="353.822" y="42.418" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="353.822" y="42.418" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="172.339" y="85.852" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D48" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="188.722" y="88.138" rot="R90">
+<element name="D48" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="188.722" y="88.138" smashed="yes" rot="R90">
+<attribute name="NAME" x="187.452" y="85.852" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="377.952" y="30.988" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="377.952" y="30.988" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="191.389" y="85.852" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D49" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="207.772" y="88.138" rot="R90">
+<element name="D49" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="207.772" y="88.138" smashed="yes" rot="R90">
+<attribute name="NAME" x="206.502" y="85.852" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="397.002" y="88.138" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="397.002" y="88.138" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="210.439" y="85.852" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D50" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="226.822" y="88.138" rot="R90">
+<element name="D50" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="226.822" y="88.138" smashed="yes" rot="R90">
+<attribute name="NAME" x="225.552" y="85.852" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="421.132" y="76.708" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="421.132" y="76.708" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="229.489" y="85.852" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D51" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="245.872" y="88.138" rot="R90">
+<element name="D51" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="245.872" y="88.138" smashed="yes" rot="R90">
+<attribute name="NAME" x="244.602" y="85.852" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="445.262" y="65.278" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="445.262" y="65.278" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="248.539" y="85.852" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D52" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="274.701" y="88.138" rot="MR90">
+<element name="D52" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="274.701" y="88.138" smashed="yes" rot="MR90">
+<attribute name="NAME" x="275.971" y="85.852" size="1.27" layer="26" ratio="10" rot="MR90"/>
 <attribute name="SPICEMODEL" value="diode" x="70.231" y="53.848" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="70.231" y="53.848" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="272.034" y="85.852" size="1.27" layer="28" ratio="10" rot="MR90"/>
 </element>
-<element name="U$54" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="8.382" y="88.138"/>
-<element name="D53" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="17.272" y="88.138" rot="R90">
+<element name="U$54" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="8.382" y="88.138" smashed="yes"/>
+<element name="D53" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="17.272" y="88.138" smashed="yes" rot="R90">
+<attribute name="NAME" x="16.002" y="85.852" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="242.062" y="42.418" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="242.062" y="42.418" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="19.939" y="85.852" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="U$35" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="10.414" y="11.938"/>
-<element name="U$55" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="34.29" y="11.938"/>
-<element name="U$56" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="58.166" y="11.938"/>
-<element name="U$58" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="201.168" y="11.938"/>
-<element name="U$59" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="225.044" y="11.938"/>
-<element name="D54" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="19.431" y="11.811" rot="R90">
+<element name="U$35" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="10.414" y="11.938" smashed="yes"/>
+<element name="U$55" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="34.29" y="11.938" smashed="yes"/>
+<element name="U$56" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="58.166" y="11.938" smashed="yes"/>
+<element name="U$58" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="201.168" y="11.938" smashed="yes"/>
+<element name="U$59" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="225.044" y="11.938" smashed="yes"/>
+<element name="D54" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="19.431" y="11.811" smashed="yes" rot="R90">
+<attribute name="NAME" x="18.161" y="9.525" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="19.431" y="11.811" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="19.431" y="11.811" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="22.098" y="9.525" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D55" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="43.18" y="11.811" rot="R90">
+<element name="D55" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="43.18" y="11.811" smashed="yes" rot="R90">
+<attribute name="NAME" x="41.91" y="9.525" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="43.18" y="11.811" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="43.18" y="11.811" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="45.847" y="9.525" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D56" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="67.056" y="11.938" rot="R90">
+<element name="D56" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="67.056" y="11.938" smashed="yes" rot="R90">
+<attribute name="NAME" x="65.786" y="9.652" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="67.056" y="11.938" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="67.056" y="11.938" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="69.723" y="9.652" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D57" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="138.557" y="12.319" rot="R90">
+<element name="D57" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="138.557" y="12.319" smashed="yes" rot="R90">
+<attribute name="NAME" x="137.287" y="10.033" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="138.557" y="12.319" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="138.557" y="12.319" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="141.224" y="10.033" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D58" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="210.058" y="11.938" rot="R90">
+<element name="D58" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="210.058" y="11.938" smashed="yes" rot="R90">
+<attribute name="NAME" x="208.788" y="9.652" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="210.058" y="11.938" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="210.058" y="11.938" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="212.725" y="9.652" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D59" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="233.934" y="12.192" rot="R90">
+<element name="D59" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="233.934" y="12.192" smashed="yes" rot="R90">
+<attribute name="NAME" x="232.664" y="9.906" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="233.934" y="12.192" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="233.934" y="12.192" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="236.601" y="9.906" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="U$74" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="46.482" y="107.188"/>
-<element name="U$75" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="65.532" y="107.188"/>
-<element name="U$76" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="84.582" y="107.188"/>
-<element name="U$77" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="103.632" y="107.188"/>
-<element name="U$78" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="122.682" y="107.188"/>
-<element name="U$79" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="141.732" y="107.188"/>
-<element name="U$80" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="160.782" y="107.188"/>
-<element name="U$81" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="179.832" y="107.188"/>
-<element name="U$82" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="198.882" y="107.188"/>
-<element name="U$83" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="217.932" y="107.188"/>
-<element name="U$84" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="236.982" y="107.188"/>
-<element name="U$85" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="256.032" y="107.188"/>
-<element name="D74" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="55.372" y="107.188" rot="R90">
+<element name="U$74" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="46.482" y="107.188" smashed="yes"/>
+<element name="U$75" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="65.532" y="107.188" smashed="yes"/>
+<element name="U$76" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="84.582" y="107.188" smashed="yes"/>
+<element name="U$77" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="103.632" y="107.188" smashed="yes"/>
+<element name="U$78" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="122.682" y="107.188" smashed="yes"/>
+<element name="U$79" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="141.732" y="107.188" smashed="yes"/>
+<element name="U$80" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="160.782" y="107.188" smashed="yes"/>
+<element name="U$81" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="179.832" y="107.188" smashed="yes"/>
+<element name="U$82" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="198.882" y="107.188" smashed="yes"/>
+<element name="U$83" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="217.932" y="107.188" smashed="yes"/>
+<element name="U$84" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="236.982" y="107.188" smashed="yes"/>
+<element name="U$85" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="256.032" y="107.188" smashed="yes"/>
+<element name="D74" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="55.372" y="107.188" smashed="yes" rot="R90">
+<attribute name="NAME" x="54.102" y="104.902" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="220.472" y="74.168" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="220.472" y="74.168" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="58.039" y="104.902" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D75" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="74.422" y="107.188" rot="R90">
+<element name="D75" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="74.422" y="107.188" smashed="yes" rot="R90">
+<attribute name="NAME" x="73.152" y="104.902" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="244.602" y="62.738" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="244.602" y="62.738" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="77.089" y="104.902" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D76" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="93.472" y="107.188" rot="R90">
+<element name="D76" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="93.472" y="107.188" smashed="yes" rot="R90">
+<attribute name="NAME" x="92.202" y="104.902" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="268.732" y="51.308" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="268.732" y="51.308" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="96.139" y="104.902" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D77" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="112.522" y="107.188" rot="R90">
+<element name="D77" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="112.522" y="107.188" smashed="yes" rot="R90">
+<attribute name="NAME" x="111.252" y="104.902" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="276.352" y="107.188" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="276.352" y="107.188" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="115.189" y="104.902" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D78" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="131.572" y="107.188" rot="R90">
+<element name="D78" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="131.572" y="107.188" smashed="yes" rot="R90">
+<attribute name="NAME" x="130.302" y="104.902" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="300.482" y="95.758" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="300.482" y="95.758" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="134.239" y="104.902" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D79" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="150.622" y="107.188" rot="R90">
+<element name="D79" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="150.622" y="107.188" smashed="yes" rot="R90">
+<attribute name="NAME" x="149.352" y="104.902" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="324.612" y="84.328" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="324.612" y="84.328" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="153.289" y="104.902" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D80" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="169.672" y="107.188" rot="R90">
+<element name="D80" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="169.672" y="107.188" smashed="yes" rot="R90">
+<attribute name="NAME" x="168.402" y="104.902" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="348.742" y="72.898" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="348.742" y="72.898" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="172.339" y="104.902" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D81" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="188.722" y="107.188" rot="R90">
+<element name="D81" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="188.722" y="107.188" smashed="yes" rot="R90">
+<attribute name="NAME" x="187.452" y="104.902" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="372.872" y="61.468" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="372.872" y="61.468" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="191.389" y="104.902" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D82" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="207.772" y="107.188" rot="R90">
+<element name="D82" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="207.772" y="107.188" smashed="yes" rot="R90">
+<attribute name="NAME" x="206.502" y="104.902" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="397.002" y="50.038" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="397.002" y="50.038" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="210.439" y="104.902" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D83" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="226.822" y="107.188" rot="R90">
+<element name="D83" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="226.822" y="107.188" smashed="yes" rot="R90">
+<attribute name="NAME" x="225.552" y="104.902" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="416.052" y="107.188" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="416.052" y="107.188" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="229.489" y="104.902" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D84" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="245.872" y="107.188" rot="R90">
+<element name="D84" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="245.872" y="107.188" smashed="yes" rot="R90">
+<attribute name="NAME" x="244.602" y="104.902" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="440.182" y="95.758" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="440.182" y="95.758" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="248.539" y="104.902" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D85" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="264.922" y="107.188" rot="R90">
+<element name="D85" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="264.922" y="107.188" smashed="yes" rot="R90">
+<attribute name="NAME" x="263.652" y="104.902" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="464.312" y="84.328" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="464.312" y="84.328" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="267.589" y="104.902" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D87" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="37.465" y="107.188" rot="R90">
+<element name="D87" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="37.465" y="107.188" smashed="yes" rot="R90">
+<attribute name="NAME" x="36.195" y="104.902" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="262.255" y="61.468" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="262.255" y="61.468" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="40.132" y="104.902" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="U$67" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="248.92" y="11.938"/>
-<element name="D67" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="257.937" y="11.938" rot="R90">
+<element name="U$67" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="248.92" y="11.938" smashed="yes"/>
+<element name="D67" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="257.937" y="11.938" smashed="yes" rot="R90">
+<attribute name="NAME" x="256.667" y="9.652" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="257.937" y="11.938" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="257.937" y="11.938" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="260.604" y="9.652" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="U$60" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="272.796" y="11.938"/>
-<element name="D60" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="281.813" y="12.065" rot="R90">
+<element name="U$60" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="272.796" y="11.938" smashed="yes"/>
+<element name="D60" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="281.813" y="12.065" smashed="yes" rot="R90">
+<attribute name="NAME" x="280.543" y="9.779" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="281.813" y="12.065" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="281.813" y="12.065" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="284.48" y="9.779" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="U$61" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="275.082" y="107.188"/>
-<element name="D61" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="283.972" y="107.188" rot="R90">
+<element name="U$61" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="275.082" y="107.188" smashed="yes"/>
+<element name="D61" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="283.972" y="107.188" smashed="yes" rot="R90">
+<attribute name="NAME" x="282.702" y="104.902" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="283.972" y="107.188" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="283.972" y="107.188" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="286.639" y="104.902" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="SW2" library="Cherry_MX_v7.0" package="MX1A-XXNW_WITH_STABILIZER_6.25X" value="" x="129.667" y="11.938"/>
-<element name="SW1" library="Cherry_MX_v7.0" package="MX1A-XXNN_WITH_STABILIZER_2X" value="" x="17.907" y="107.188"/>
-<element name="SW3" library="Cherry_MX_v7.0" package="MX1A-XXNN_WITH_STABILIZER_2X" value="" x="19.558" y="30.988"/>
-<element name="SW4" library="Cherry_MX_v7.0" package="MX1A-XXNN_WITH_STABILIZER_2X" value="" x="257.683" y="30.988"/>
-<element name="SW5" library="Cherry_MX_v7.0" package="MX1A-XXNN_WITH_STABILIZER_2X" value="" x="262.001" y="50.038"/>
-<element name="SW6" library="Cherry_MX_v7.0" package="MX1A-XXNN_WITH_STABILIZER_2X" value="" x="265.557" y="88.138"/>
-<element name="H5" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="36.83" y="97.79"/>
-<element name="H6" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="170.18" y="14.097"/>
-<element name="H7" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="189.357" y="97.536"/>
-<element name="H8" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="48.387" y="21.59" rot="MR0"/>
-<element name="U$38" library="Teensy_3_and_LC_Series_Boards_v1.4" package="TEENSY_3.0-3.2_ALL_PINS_&amp;_PADS" value="" x="294.386" y="97.282"/>
-<element name="H1" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="344.17" y="21.59"/>
-<element name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="285.75" y="64.77"/>
-<element name="U$39" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="296.672" y="50.038"/>
-<element name="U$40" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="296.672" y="11.938"/>
-<element name="U$53" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="315.722" y="11.938"/>
-<element name="U$57" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="334.772" y="11.938"/>
-<element name="U$62" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="353.822" y="11.938"/>
-<element name="U$63" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="296.672" y="30.988"/>
-<element name="U$64" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="315.722" y="30.988"/>
-<element name="U$65" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="315.722" y="50.038"/>
-<element name="U$66" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="353.822" y="88.138"/>
-<element name="U$68" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="315.722" y="107.188"/>
-<element name="U$69" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="315.722" y="88.138"/>
-<element name="U$70" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="315.722" y="69.088"/>
-<element name="U$71" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="334.772" y="69.088"/>
-<element name="U$72" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="334.772" y="50.038"/>
-<element name="U$73" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="334.772" y="30.988"/>
-<element name="U$86" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="353.822" y="107.188"/>
-<element name="U$87" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="334.772" y="107.188"/>
-<element name="U$88" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="334.772" y="88.138"/>
-<element name="U$89" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="353.822" y="69.088"/>
-<element name="U$90" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="353.822" y="50.038"/>
-<element name="U$91" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="353.822" y="30.988"/>
-<element name="D63" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="325.12" y="11.43" rot="R90">
+<element name="SW2" library="Cherry_MX_v7.0" package="MX1A-XXNW_WITH_STABILIZER_6.25X" value="" x="129.667" y="11.938" smashed="yes">
+<attribute name="NAME" x="125.667" y="19.103" size="1.27" layer="25" font="vector"/>
+<attribute name="VALUE" x="125.667" y="3.503" size="1.27" layer="27" font="vector"/>
+</element>
+<element name="SW1" library="Cherry_MX_v7.0" package="MX1A-XXNN_WITH_STABILIZER_2X" value="" x="17.907" y="107.188" smashed="yes">
+<attribute name="NAME" x="10.287" y="113.538" size="1.27" layer="25" font="vector"/>
+<attribute name="VALUE" x="10.287" y="99.568" size="1.27" layer="27" font="vector"/>
+</element>
+<element name="SW3" library="Cherry_MX_v7.0" package="MX1A-XXNN_WITH_STABILIZER_2X" value="" x="19.558" y="30.988" smashed="yes">
+<attribute name="NAME" x="11.938" y="37.338" size="1.27" layer="25" font="vector"/>
+<attribute name="VALUE" x="11.938" y="23.368" size="1.27" layer="27" font="vector"/>
+</element>
+<element name="SW4" library="Cherry_MX_v7.0" package="MX1A-XXNN_WITH_STABILIZER_2X" value="" x="257.683" y="30.988" smashed="yes">
+<attribute name="NAME" x="250.063" y="37.338" size="1.27" layer="25" font="vector"/>
+<attribute name="VALUE" x="250.063" y="23.368" size="1.27" layer="27" font="vector"/>
+</element>
+<element name="SW5" library="Cherry_MX_v7.0" package="MX1A-XXNN_WITH_STABILIZER_2X" value="" x="262.001" y="50.038" smashed="yes">
+<attribute name="NAME" x="254.381" y="56.388" size="1.27" layer="25" font="vector"/>
+<attribute name="VALUE" x="254.381" y="42.418" size="1.27" layer="27" font="vector"/>
+</element>
+<element name="SW6" library="Cherry_MX_v7.0" package="MX1A-XXNN_WITH_STABILIZER_2X" value="" x="265.557" y="88.138" smashed="yes">
+<attribute name="NAME" x="257.937" y="94.488" size="1.27" layer="25" font="vector"/>
+<attribute name="VALUE" x="257.937" y="80.518" size="1.27" layer="27" font="vector"/>
+</element>
+<element name="H5" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="36.83" y="97.79" smashed="yes"/>
+<element name="H6" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="170.18" y="14.097" smashed="yes"/>
+<element name="H7" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="189.357" y="97.536" smashed="yes"/>
+<element name="H8" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="48.387" y="21.59" smashed="yes" rot="MR0"/>
+<element name="U$38" library="Teensy_3_and_LC_Series_Boards_v1.4" package="TEENSY_3.0-3.2_ALL_PINS_&amp;_PADS" value="" x="294.386" y="97.282" smashed="yes">
+<attribute name="NAME" x="290.576" y="111.252" size="1.27" layer="25" font="vector"/>
+<attribute name="VALUE" x="290.576" y="102.362" size="1.27" layer="27" font="vector"/>
+</element>
+<element name="H1" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="344.17" y="21.59" smashed="yes"/>
+<element name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="285.75" y="64.77" smashed="yes"/>
+<element name="U$39" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="296.672" y="50.038" smashed="yes"/>
+<element name="U$40" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="296.672" y="11.938" smashed="yes"/>
+<element name="U$53" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="315.722" y="11.938" smashed="yes"/>
+<element name="U$57" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="334.772" y="11.938" smashed="yes"/>
+<element name="U$62" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="353.822" y="11.938" smashed="yes"/>
+<element name="U$63" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="296.672" y="30.988" smashed="yes"/>
+<element name="U$64" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="315.722" y="30.988" smashed="yes"/>
+<element name="U$65" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="315.722" y="50.038" smashed="yes"/>
+<element name="U$66" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="353.822" y="88.138" smashed="yes"/>
+<element name="U$68" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="315.722" y="107.188" smashed="yes"/>
+<element name="U$69" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="315.722" y="88.138" smashed="yes"/>
+<element name="U$70" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="315.722" y="69.088" smashed="yes"/>
+<element name="U$71" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="334.772" y="69.088" smashed="yes"/>
+<element name="U$72" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="334.772" y="50.038" smashed="yes"/>
+<element name="U$73" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="334.772" y="30.988" smashed="yes"/>
+<element name="U$86" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="353.822" y="107.188" smashed="yes"/>
+<element name="U$87" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="334.772" y="107.188" smashed="yes"/>
+<element name="U$88" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="334.772" y="88.138" smashed="yes"/>
+<element name="U$89" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="353.822" y="69.088" smashed="yes"/>
+<element name="U$90" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="353.822" y="50.038" smashed="yes"/>
+<element name="U$91" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="353.822" y="30.988" smashed="yes"/>
+<element name="D63" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="325.12" y="11.43" smashed="yes" rot="R90">
+<attribute name="NAME" x="323.85" y="9.144" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="325.12" y="11.43" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="325.12" y="11.43" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="327.787" y="9.144" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D64" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="306.07" y="11.43" rot="R90">
+<element name="D64" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="306.07" y="11.43" smashed="yes" rot="R90">
+<attribute name="NAME" x="304.8" y="9.144" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="306.07" y="11.43" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="306.07" y="11.43" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="308.737" y="9.144" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D66" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="344.297" y="11.43" rot="R90">
+<element name="D66" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="344.297" y="11.43" smashed="yes" rot="R90">
+<attribute name="NAME" x="343.027" y="9.144" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="344.297" y="11.43" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="344.297" y="11.43" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="346.964" y="9.144" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D68" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="358.14" y="20.955" rot="MR0">
+<element name="D68" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="358.14" y="20.955" smashed="yes" rot="MR0">
+<attribute name="NAME" x="360.426" y="22.225" size="1.27" layer="26" ratio="10" rot="MR0"/>
 <attribute name="SPICEMODEL" value="diode" x="358.14" y="20.955" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="358.14" y="20.955" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="360.426" y="18.288" size="1.27" layer="28" ratio="10" rot="MR0"/>
 </element>
-<element name="D69" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="306.197" y="31.115" rot="R90">
+<element name="D69" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="306.197" y="31.115" smashed="yes" rot="R90">
+<attribute name="NAME" x="304.927" y="28.829" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="306.197" y="31.115" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="306.197" y="31.115" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="308.864" y="28.829" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D70" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="325.247" y="31.115" rot="R90">
+<element name="D70" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="325.247" y="31.115" smashed="yes" rot="R90">
+<attribute name="NAME" x="323.977" y="28.829" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="325.247" y="31.115" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="325.247" y="31.115" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="327.914" y="28.829" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D71" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="344.17" y="31.115" rot="MR90">
+<element name="D71" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="344.17" y="31.115" smashed="yes" rot="MR90">
+<attribute name="NAME" x="345.44" y="28.829" size="1.27" layer="26" ratio="10" rot="MR90"/>
 <attribute name="SPICEMODEL" value="diode" x="344.17" y="31.115" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="344.17" y="31.115" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="341.503" y="28.829" size="1.27" layer="28" ratio="10" rot="MR90"/>
 </element>
-<element name="D72" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="362.712" y="31.115" rot="R90">
+<element name="D72" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="362.712" y="31.115" smashed="yes" rot="R90">
+<attribute name="NAME" x="361.442" y="28.829" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="362.712" y="31.115" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="362.712" y="31.115" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="365.379" y="28.829" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D73" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="362.585" y="50.038" rot="R90">
+<element name="D73" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="362.585" y="50.038" smashed="yes" rot="R90">
+<attribute name="NAME" x="361.315" y="47.752" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="362.585" y="50.038" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="362.585" y="50.038" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="365.252" y="47.752" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D86" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="344.297" y="50.038" rot="R90">
+<element name="D86" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="344.297" y="50.038" smashed="yes" rot="R90">
+<attribute name="NAME" x="343.027" y="47.752" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="344.297" y="50.038" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="344.297" y="50.038" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="346.964" y="47.752" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D88" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="325.247" y="50.038" rot="R90">
+<element name="D88" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="325.247" y="50.038" smashed="yes" rot="R90">
+<attribute name="NAME" x="323.977" y="47.752" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="325.247" y="50.038" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="325.247" y="50.038" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="327.914" y="47.752" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D89" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="306.07" y="50.038" rot="R90">
+<element name="D89" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="306.07" y="50.038" smashed="yes" rot="R90">
+<attribute name="NAME" x="304.8" y="47.752" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="306.07" y="50.038" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="306.07" y="50.038" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="308.737" y="47.752" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D90" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="324.993" y="69.088" rot="R90">
+<element name="D90" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="324.993" y="69.088" smashed="yes" rot="R90">
+<attribute name="NAME" x="323.723" y="66.802" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="324.993" y="69.088" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="324.993" y="69.088" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="327.66" y="66.802" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D91" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="344.17" y="69.215" rot="R90">
+<element name="D91" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="344.17" y="69.215" smashed="yes" rot="R90">
+<attribute name="NAME" x="342.9" y="66.929" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="344.17" y="69.215" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="344.17" y="69.215" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="346.837" y="66.929" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D92" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="362.585" y="69.088" rot="R90">
+<element name="D92" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="362.585" y="69.088" smashed="yes" rot="R90">
+<attribute name="NAME" x="361.315" y="66.802" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="362.585" y="69.088" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="362.585" y="69.088" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="365.252" y="66.802" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D93" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="325.12" y="87.63" rot="R90">
+<element name="D93" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="325.12" y="87.63" smashed="yes" rot="R90">
+<attribute name="NAME" x="323.85" y="85.344" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="325.12" y="87.63" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="325.12" y="87.63" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="327.787" y="85.344" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D94" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="344.17" y="87.63" rot="R90">
+<element name="D94" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="344.17" y="87.63" smashed="yes" rot="R90">
+<attribute name="NAME" x="342.9" y="85.344" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="344.17" y="87.63" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="344.17" y="87.63" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="346.837" y="85.344" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D95" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="325.12" y="106.68" rot="R90">
+<element name="D95" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="325.12" y="106.68" smashed="yes" rot="R90">
+<attribute name="NAME" x="323.85" y="104.394" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="325.12" y="106.68" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="325.12" y="106.68" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="327.787" y="104.394" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D96" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="344.17" y="106.68" rot="R90">
+<element name="D96" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="344.17" y="106.68" smashed="yes" rot="R90">
+<attribute name="NAME" x="342.9" y="104.394" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="344.17" y="106.68" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="344.17" y="106.68" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="346.837" y="104.394" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D97" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="358.14" y="97.155">
+<element name="D97" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="358.14" y="97.155" smashed="yes">
+<attribute name="NAME" x="355.854" y="98.425" size="1.27" layer="25" ratio="10"/>
 <attribute name="SPICEMODEL" value="diode" x="358.14" y="97.155" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="358.14" y="97.155" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="355.854" y="94.488" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="D98" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="362.585" y="106.553" rot="R90">
+<element name="D98" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="DIODE_DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="" x="362.585" y="106.553" smashed="yes" rot="R90">
+<attribute name="NAME" x="361.315" y="104.267" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="SPICEMODEL" value="diode" x="362.585" y="106.553" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="362.585" y="106.553" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="365.252" y="104.267" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="H3" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="344.17" y="97.79"/>
+<element name="H3" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="344.17" y="97.79" smashed="yes"/>
 </elements>
 <signals>
 <signal name="N$1">
@@ -1467,11 +1699,9 @@ design rules under a new name.</description>
 <wire x1="326.39" y1="66.675" x2="326.39" y2="74.93" width="0.2" layer="1"/>
 <wire x1="326.39" y1="74.93" x2="318.77" y2="82.55" width="0.2" layer="1"/>
 <wire x1="318.77" y1="82.55" x2="313.69" y2="82.55" width="0.2" layer="1"/>
-<wire x1="304.165" y1="92.075" x2="291.973" y2="92.075" width="0.2" layer="1"/>
-<wire x1="291.973" y1="92.075" x2="291.211" y2="92.837" width="0.2" layer="1"/>
-<wire x1="291.211" y1="92.837" x2="291.211" y2="93.726" width="0.2" layer="1"/>
-<wire x1="291.211" y1="93.726" x2="286.766" y2="98.171" width="0.2" layer="1"/>
-<wire x1="286.766" y1="98.171" x2="286.766" y2="98.552" width="0.2" layer="1"/>
+<wire x1="304.165" y1="92.075" x2="293.243" y2="92.075" width="0.2" layer="1"/>
+<wire x1="293.243" y1="92.075" x2="287.401" y2="97.917" width="0.2" layer="1"/>
+<wire x1="287.401" y1="97.917" x2="286.766" y2="98.552" width="0.2" layer="1"/>
 <wire x1="313.69" y1="82.55" x2="304.165" y2="92.075" width="0.2" layer="1"/>
 </signal>
 <signal name="ROW2">
@@ -1521,11 +1751,11 @@ design rules under a new name.</description>
 <wire x1="318.8382" y1="89.428775" x2="318.77" y2="89.496975" width="0.2" layer="1"/>
 <wire x1="318.77" y1="89.496975" x2="318.77" y2="90.297" width="0.2" layer="1"/>
 <wire x1="318.77" y1="90.297" x2="316.357" y2="92.71" width="0.2" layer="1"/>
-<wire x1="303.022" y1="94.742" x2="291.719" y2="94.742" width="0.2" layer="1"/>
-<wire x1="291.719" y1="94.742" x2="290.449" y2="96.012" width="0.2" layer="1"/>
-<wire x1="290.449" y1="96.012" x2="290.449" y2="98.425" width="0.2" layer="1"/>
-<wire x1="290.449" y1="98.425" x2="287.782" y2="101.092" width="0.2" layer="1"/>
-<wire x1="287.782" y1="101.092" x2="286.766" y2="101.092" width="0.2" layer="1"/>
+<wire x1="303.022" y1="94.742" x2="293.243" y2="94.742" width="0.2" layer="1"/>
+<wire x1="293.243" y1="94.742" x2="291.084" y2="96.901" width="0.2" layer="1"/>
+<wire x1="291.084" y1="96.901" x2="291.084" y2="99.314" width="0.2" layer="1"/>
+<wire x1="291.084" y1="99.314" x2="289.306" y2="101.092" width="0.2" layer="1"/>
+<wire x1="289.306" y1="101.092" x2="286.766" y2="101.092" width="0.2" layer="1"/>
 <wire x1="320.929" y1="83.82" x2="318.77" y2="85.979" width="0.2" layer="1"/>
 <wire x1="316.357" y1="92.71" x2="305.054" y2="92.71" width="0.2" layer="1"/>
 <wire x1="305.054" y1="92.71" x2="303.022" y2="94.742" width="0.2" layer="1"/>
@@ -1724,12 +1954,12 @@ design rules under a new name.</description>
 <wire x1="274.701" y1="86.741" x2="284.48" y2="96.52" width="0.2" layer="16"/>
 <wire x1="325.12" y1="102.87" x2="318.77" y2="96.52" width="0.2" layer="1"/>
 <wire x1="304.038" y1="96.52" x2="303.276" y2="97.282" width="0.2" layer="1"/>
-<wire x1="303.276" y1="97.282" x2="291.973" y2="97.282" width="0.2" layer="1"/>
-<wire x1="291.973" y1="97.282" x2="291.719" y2="97.536" width="0.2" layer="1"/>
-<wire x1="291.719" y1="97.536" x2="291.719" y2="99.949" width="0.2" layer="1"/>
-<wire x1="288.036" y1="103.632" x2="286.766" y2="103.632" width="0.2" layer="1"/>
+<wire x1="303.276" y1="97.282" x2="293.497" y2="97.282" width="0.2" layer="1"/>
+<wire x1="293.497" y1="97.282" x2="292.862" y2="97.917" width="0.2" layer="1"/>
+<wire x1="292.862" y1="97.917" x2="292.862" y2="101.6" width="0.2" layer="1"/>
+<wire x1="290.83" y1="103.632" x2="286.766" y2="103.632" width="0.2" layer="1"/>
 <wire x1="318.77" y1="96.52" x2="304.038" y2="96.52" width="0.2" layer="1"/>
-<wire x1="291.719" y1="99.949" x2="288.036" y2="103.632" width="0.2" layer="1"/>
+<wire x1="292.862" y1="101.6" x2="290.83" y2="103.632" width="0.2" layer="1"/>
 </signal>
 <signal name="N$70">
 <contactref element="U$35" pad="SW2"/>
@@ -2548,9 +2778,10 @@ design rules under a new name.</description>
 <wire x1="349.25" y1="115.57" x2="300.99" y2="115.57" width="0.2" layer="1"/>
 <wire x1="300.99" y1="115.57" x2="295.91" y2="110.49" width="0.2" layer="1"/>
 <wire x1="295.91" y1="110.49" x2="295.91" y2="107.95" width="0.2" layer="1"/>
-<wire x1="295.91" y1="107.95" x2="293.37" y2="105.41" width="0.2" layer="1"/>
-<wire x1="287.528" y1="105.41" x2="286.766" y2="106.172" width="0.2" layer="1"/>
-<wire x1="293.37" y1="105.41" x2="287.528" y2="105.41" width="0.2" layer="1"/>
+<wire x1="295.91" y1="107.95" x2="293.624" y2="105.664" width="0.2" layer="1"/>
+<wire x1="290.195" y1="105.664" x2="289.687" y2="106.172" width="0.2" layer="1"/>
+<wire x1="293.624" y1="105.664" x2="290.195" y2="105.664" width="0.2" layer="1"/>
+<wire x1="289.687" y1="106.172" x2="286.766" y2="106.172" width="0.2" layer="1"/>
 </signal>
 <signal name="COL0">
 <contactref element="U$54" pad="SW1"/>
@@ -2679,11 +2910,14 @@ design rules under a new name.</description>
 <wire x1="36.957" y1="110.49" x2="37.465" y2="110.998" width="0.2032" layer="1"/>
 </signal>
 <signal name="GND">
-<contactref element="U$38" pad="GND2"/>
 <contactref element="U$38" pad="GND"/>
 <contactref element="U$38" pad="GND1"/>
+<contactref element="U$38" pad="GND2"/>
+<wire x1="294.386" y1="96.012" x2="295.148" y2="96.012" width="0.1524" layer="16"/>
+<wire x1="295.656" y1="82.042" x2="294.386" y2="80.772" width="0.1524" layer="16"/>
+<wire x1="295.148" y1="96.012" x2="295.656" y2="95.504" width="0.1524" layer="16"/>
+<wire x1="295.656" y1="95.504" x2="295.656" y2="82.042" width="0.1524" layer="16"/>
 <wire x1="294.386" y1="96.012" x2="286.766" y2="113.792" width="0" layer="19" extent="1-1"/>
-<wire x1="294.386" y1="80.772" x2="294.386" y2="96.012" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VBAT">
 <contactref element="U$38" pad="VBAT"/>
@@ -2904,6 +3138,17 @@ design rules under a new name.</description>
 </signal>
 <signal name="VUSB">
 <contactref element="U$38" pad="VUSB"/>
+</signal>
+<signal name="N$37">
+<wire x1="0" y1="30.48" x2="0" y2="3.81" width="0.1524" layer="1"/>
+<wire x1="0" y1="3.81" x2="0" y2="-40.64" width="0.1524" layer="1"/>
+<wire x1="0" y1="3.81" x2="-19.05" y2="3.81" width="0.1524" layer="1"/>
+</signal>
+<signal name="N$38">
+<wire x1="364.49" y1="11.43" x2="364.49" y2="-33.02" width="0.1524" layer="1"/>
+</signal>
+<signal name="N$43">
+<wire x1="2.54" y1="116.84" x2="-11.43" y2="116.84" width="0.1524" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
