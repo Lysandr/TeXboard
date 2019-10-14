@@ -9,3 +9,4 @@ This also works as generic keyboard matrix interpretation code. Writtenin C-ardu
 Todo:
 FN/GRK/LTX functions still need to be implemented (imlazy)
 dual keys tend to have an odd glitch, needs to be investigated
+MkIII hardware --> switch over to STM32 with QMK firmware... also put extension keys on the left, gives more mouse room. Create parametric case design, which prints perfectly and makes lasercut piece easier to deal with.
