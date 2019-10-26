@@ -1148,9 +1148,9 @@ design rules under a new name.</description>
 <element name="D65" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED-0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN" x="297.307" y="75.692" rot="R270">
 <attribute name="PROD_ID" value="DIO-00821" x="297.307" y="75.692" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="H5" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="26.67" y="78.74"/>
+<element name="H5" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="36.83" y="97.79"/>
 <element name="H6" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="170.18" y="14.097"/>
-<element name="H7" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="179.197" y="78.486"/>
+<element name="H7" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="189.357" y="97.536"/>
 <element name="H8" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8-PAD" package3d_urn="urn:adsk.eagle:package:14281/1" value="MOUNT-PAD-ROUND2.8" x="48.387" y="21.59" rot="MR0"/>
 <element name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="20" x="289.687" y="76.454" rot="R180">
 <attribute name="PROD_ID" value="RES-07862" x="289.687" y="76.454" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2315,11 +2315,11 @@ design rules under a new name.</description>
 <wire x1="195.072" y1="109.728" x2="194.0718" y2="108.7278" width="0.2032" layer="16"/>
 <wire x1="194.0718" y1="108.7278" x2="193.16419375" y2="108.7278" width="0.2032" layer="16"/>
 <wire x1="193.16419375" y1="108.7278" x2="191.77" y2="107.33360625" width="0.2032" layer="16"/>
-<wire x1="191.77" y1="101.6" x2="186.69" y2="96.52" width="0.2032" layer="16"/>
-<wire x1="186.69" y1="96.52" x2="179.07" y2="96.52" width="0.2032" layer="16"/>
-<wire x1="179.07" y1="96.52" x2="176.022" y2="93.472" width="0.2032" layer="16"/>
+<wire x1="191.77" y1="104.14" x2="189.23" y2="101.6" width="0.2032" layer="16"/>
+<wire x1="189.23" y1="101.6" x2="184.15" y2="101.6" width="0.2032" layer="16"/>
+<wire x1="184.15" y1="101.6" x2="176.022" y2="93.472" width="0.2032" layer="16"/>
 <wire x1="176.022" y1="93.472" x2="176.022" y2="90.678" width="0.2032" layer="16"/>
-<wire x1="191.77" y1="107.33360625" x2="191.77" y2="101.6" width="0.2032" layer="16"/>
+<wire x1="191.77" y1="107.33360625" x2="191.77" y2="104.14" width="0.2032" layer="16"/>
 <wire x1="176.022" y1="90.678" x2="176.022" y2="89.408" width="0.2032" layer="16"/>
 <wire x1="176.022" y1="89.408" x2="176.7142" y2="88.7158" width="0.2032" layer="16"/>
 <wire x1="176.7142" y1="88.7158" x2="176.7142" y2="86.8465625" width="0.2032" layer="16"/>

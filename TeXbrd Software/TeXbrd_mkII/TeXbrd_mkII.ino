@@ -1,7 +1,7 @@
 /* Teensy USB keyboard
  *  Padraig Lysandrou September 2018
- * Open issues: FXN+key will send the proper command but also sends the normal keystroke...
- * ex: FN+F11 sends volume up and fit to screen commands......
+ * Open issues:
+ * Function keys need to work
 */
 #include <Keyboard.h>
 
@@ -17,14 +17,14 @@ byte colPins[COLS] = {19,14,15,16,17,25,26,21,20,12,11,10,9,8,22,23};
 byte rowPins[ROWS] = {2,3,4,5,6,7};
 unsigned int keys_pressed[6] = {0};
 unsigned int modifiers_pressed[2] = {0};
-int cycle_time_ms = 2;
+int cycle_time_ms = 5;
 int FXN_flag = 0;
 
 
 unsigned long last_debounce_time[ROWS][COLS] = {0};  // the last time the output pin was toggled
 unsigned long time_since_last_TX[ROWS][COLS] = {0};
 int last_button_state[ROWS][COLS] = {0};
-unsigned long debounceDelay = 30;    // the debounce time; increase if the output flickers
+unsigned long debounceDelay = 25;    // the debounce time; increase if the output flickers
 unsigned long transmitDelay = 30;
 
 unsigned int key_matrix[ROWS][COLS] = {

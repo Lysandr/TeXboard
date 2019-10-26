@@ -238,25 +238,28 @@
 <text x="217.932" y="102.108" size="1.778" layer="25" ratio="5">F10</text>
 <text x="236.982" y="102.108" size="1.778" layer="25" ratio="5">F11</text>
 <text x="256.032" y="102.108" size="1.778" layer="25" ratio="5">F12</text>
-<text x="4.191" y="5.715" size="1.778" layer="25" ratio="5">CTROL</text>
+<text x="4.191" y="5.715" size="1.778" layer="25" ratio="5">CTRL</text>
 <text x="27.686" y="5.588" size="1.778" layer="25" ratio="5">OS/SUPER</text>
-<text x="51.689" y="5.588" size="1.778" layer="25" ratio="5">ALT/META</text>
+<text x="51.689" y="5.588" size="1.778" layer="25" ratio="5">ALT</text>
 <text x="195.834" y="5.715" size="1.778" layer="25" ratio="5">GREEK</text>
-<text x="218.694" y="5.588" size="1.778" layer="25" ratio="5">FN/HYPER</text>
+<text x="218.694" y="5.588" size="1.778" layer="25" ratio="5">FN</text>
 <text x="242.824" y="5.715" size="1.778" layer="25" ratio="5">MATH</text>
-<text x="266.954" y="5.715" size="1.778" layer="25" ratio="5">CNTROL</text>
+<text x="266.954" y="5.715" size="1.778" layer="25" ratio="5">CTRL</text>
 <text x="273.812" y="102.108" size="1.778" layer="25" ratio="5">xtra</text>
-<wire x1="0" y1="115.57" x2="0" y2="6.3808" width="0.1524" layer="20"/>
-<wire x1="0" y1="6.3808" x2="6.3808" y2="2.54" width="0.1524" layer="20" curve="90"/>
-<wire x1="6.3808" y1="2.54" x2="276.86" y2="2.54" width="0.1524" layer="20"/>
 <wire x1="303.53" y1="116.84" x2="1.27" y2="116.84" width="0.1524" layer="20"/>
 <wire x1="1.27" y1="116.84" x2="0" y2="115.57" width="0.1524" layer="20" curve="90"/>
 <text x="100.457" y="3.429" size="2.54" layer="21" font="vector">TeXbrd mk2                 lysandrou2018</text>
 <wire x1="303.53" y1="116.84" x2="361.95" y2="116.84" width="0.1524" layer="20"/>
 <wire x1="361.95" y1="116.84" x2="364.49" y2="114.3" width="0.1524" layer="20" curve="-90"/>
 <wire x1="364.49" y1="114.3" x2="364.49" y2="7.62" width="0.1524" layer="20"/>
-<wire x1="364.49" y1="7.62" x2="360.68" y2="2.54" width="0.1524" layer="20" curve="-90"/>
-<wire x1="360.68" y1="2.54" x2="276.86" y2="2.54" width="0.1524" layer="20"/>
+<wire x1="2.54" y1="3.81" x2="75.057" y2="3.81" width="0.1524" layer="20"/>
+<wire x1="75.057" y1="3.81" x2="76.708" y2="2.159" width="0.1524" layer="20"/>
+<wire x1="76.708" y1="2.159" x2="182.499" y2="2.159" width="0.1524" layer="20"/>
+<wire x1="182.499" y1="2.159" x2="184.15" y2="3.81" width="0.1524" layer="20"/>
+<wire x1="184.15" y1="3.81" x2="360.68" y2="3.81" width="0.1524" layer="20"/>
+<wire x1="360.68" y1="3.81" x2="364.49" y2="7.62" width="0.1524" layer="20" curve="90"/>
+<wire x1="0" y1="115.57" x2="0" y2="6.35" width="0.1524" layer="20"/>
+<wire x1="0" y1="6.35" x2="2.54" y2="3.81" width="0.1524" layer="20" curve="90"/>
 </plain>
 <libraries>
 <library name="cherrymx">
