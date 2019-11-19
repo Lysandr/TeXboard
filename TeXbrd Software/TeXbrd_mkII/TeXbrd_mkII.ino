@@ -24,8 +24,8 @@ int FXN_flag = 0;
 unsigned long last_debounce_time[ROWS][COLS] = {0};  // the last time the output pin was toggled
 unsigned long time_since_last_TX[ROWS][COLS] = {0};
 int last_button_state[ROWS][COLS] = {0};
-unsigned long debounceDelay = 25;    // the debounce time; increase if the output flickers
-unsigned long transmitDelay = 30;
+unsigned long debounceDelay = 15;    // the debounce time; increase if the output flickers
+unsigned long transmitDelay = 15;
 
 unsigned int key_matrix[ROWS][COLS] = {
   {KEY_ESC,KEY_F1,KEY_F2,KEY_F3,KEY_F4,KEY_F5,KEY_F6,KEY_F7,KEY_F8,KEY_F9,KEY_F10,KEY_F11,KEY_F12,KEY_XTRA,KEY_NONE,KEY_NONE},
