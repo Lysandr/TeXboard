@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2439,36 +2439,36 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="NAME" x="325.12" y="208.28" size="1.778" layer="95"/>
 <attribute name="VALUE" x="325.12" y="190.5" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY1" gate="GND" x="485.14" y="180.34" smashed="yes">
-<attribute name="VALUE" x="483.235" y="177.165" size="1.778" layer="96"/>
+<instance part="SUPPLY1" gate="GND" x="609.6" y="182.88" smashed="yes">
+<attribute name="VALUE" x="607.695" y="179.705" size="1.778" layer="96"/>
 </instance>
-<instance part="H5" gate="G$1" x="419.1" y="116.84" smashed="yes">
-<attribute name="NAME" x="421.894" y="117.4242" size="1.778" layer="95"/>
-<attribute name="VALUE" x="421.894" y="114.3762" size="1.778" layer="96"/>
+<instance part="H5" gate="G$1" x="551.18" y="119.38" smashed="yes">
+<attribute name="NAME" x="553.974" y="119.9642" size="1.778" layer="95"/>
+<attribute name="VALUE" x="553.974" y="116.9162" size="1.778" layer="96"/>
 </instance>
-<instance part="H6" gate="G$1" x="419.1" y="109.22" smashed="yes">
-<attribute name="NAME" x="421.894" y="109.8042" size="1.778" layer="95"/>
-<attribute name="VALUE" x="421.894" y="106.7562" size="1.778" layer="96"/>
+<instance part="H6" gate="G$1" x="551.18" y="111.76" smashed="yes">
+<attribute name="NAME" x="553.974" y="112.3442" size="1.778" layer="95"/>
+<attribute name="VALUE" x="553.974" y="109.2962" size="1.778" layer="96"/>
 </instance>
-<instance part="H7" gate="G$1" x="419.1" y="101.6" smashed="yes">
-<attribute name="NAME" x="421.894" y="102.1842" size="1.778" layer="95"/>
-<attribute name="VALUE" x="421.894" y="99.1362" size="1.778" layer="96"/>
+<instance part="H7" gate="G$1" x="551.18" y="104.14" smashed="yes">
+<attribute name="NAME" x="553.974" y="104.7242" size="1.778" layer="95"/>
+<attribute name="VALUE" x="553.974" y="101.6762" size="1.778" layer="96"/>
 </instance>
-<instance part="H8" gate="G$1" x="419.1" y="93.98" smashed="yes">
-<attribute name="NAME" x="421.894" y="94.5642" size="1.778" layer="95"/>
-<attribute name="VALUE" x="421.894" y="91.5162" size="1.778" layer="96"/>
+<instance part="H8" gate="G$1" x="551.18" y="96.52" smashed="yes">
+<attribute name="NAME" x="553.974" y="97.1042" size="1.778" layer="95"/>
+<attribute name="VALUE" x="553.974" y="94.0562" size="1.778" layer="96"/>
 </instance>
-<instance part="U$38" gate="G$1" x="452.12" y="162.56" smashed="yes">
-<attribute name="NAME" x="446.532" y="196.85" size="1.27" layer="95" font="vector" ratio="15"/>
-<attribute name="VALUE" x="449.326" y="124.46" size="1.27" layer="96" font="vector" ratio="15"/>
+<instance part="U$38" gate="G$1" x="584.2" y="165.1" smashed="yes">
+<attribute name="NAME" x="578.612" y="199.39" size="1.27" layer="95" font="vector" ratio="15"/>
+<attribute name="VALUE" x="581.406" y="127" size="1.27" layer="96" font="vector" ratio="15"/>
 </instance>
-<instance part="H1" gate="G$1" x="419.1" y="86.36" smashed="yes">
-<attribute name="NAME" x="421.894" y="86.9442" size="1.778" layer="95"/>
-<attribute name="VALUE" x="421.894" y="83.8962" size="1.778" layer="96"/>
+<instance part="H1" gate="G$1" x="551.18" y="88.9" smashed="yes">
+<attribute name="NAME" x="553.974" y="89.4842" size="1.778" layer="95"/>
+<attribute name="VALUE" x="553.974" y="86.4362" size="1.778" layer="96"/>
 </instance>
-<instance part="H2" gate="G$1" x="419.1" y="76.2" smashed="yes">
-<attribute name="NAME" x="421.894" y="76.7842" size="1.778" layer="95"/>
-<attribute name="VALUE" x="421.894" y="73.7362" size="1.778" layer="96"/>
+<instance part="H2" gate="G$1" x="551.18" y="78.74" smashed="yes">
+<attribute name="NAME" x="553.974" y="79.3242" size="1.778" layer="95"/>
+<attribute name="VALUE" x="553.974" y="76.2762" size="1.778" layer="96"/>
 </instance>
 <instance part="U$39" gate="G$1" x="314.96" y="86.36" smashed="yes" rot="R90">
 <attribute name="NAME" x="322.58" y="81.28" size="1.778" layer="95" rot="R90"/>
@@ -2617,9 +2617,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="NAME" x="381.635" y="216.154" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="386.969" y="216.154" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="H3" gate="G$1" x="419.1" y="68.58" smashed="yes">
-<attribute name="NAME" x="421.894" y="69.1642" size="1.778" layer="95"/>
-<attribute name="VALUE" x="421.894" y="66.1162" size="1.778" layer="96"/>
+<instance part="H3" gate="G$1" x="551.18" y="71.12" smashed="yes">
+<attribute name="NAME" x="553.974" y="71.7042" size="1.778" layer="95"/>
+<attribute name="VALUE" x="553.974" y="68.6562" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -2894,8 +2894,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <junction x="317.5" y="68.58"/>
 </segment>
 <segment>
-<wire x1="429.26" y1="175.26" x2="424.18" y2="175.26" width="0.1524" layer="91"/>
-<label x="424.18" y="175.26" size="1.778" layer="91" rot="R180" xref="yes"/>
+<wire x1="561.34" y1="177.8" x2="558.8" y2="177.8" width="0.1524" layer="91"/>
+<label x="558.8" y="177.8" size="1.778" layer="91" rot="R180" xref="yes"/>
 <pinref part="U$38" gate="G$1" pin="6/PWM"/>
 </segment>
 </net>
@@ -2967,8 +2967,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <junction x="360.68" y="104.14"/>
 </segment>
 <segment>
-<wire x1="429.26" y1="177.8" x2="421.64" y2="177.8" width="0.1524" layer="91"/>
-<label x="421.64" y="177.8" size="1.778" layer="91" rot="R180" xref="yes"/>
+<wire x1="561.34" y1="180.34" x2="558.8" y2="180.34" width="0.1524" layer="91"/>
+<label x="558.8" y="180.34" size="1.778" layer="91" rot="R180" xref="yes"/>
 <pinref part="U$38" gate="G$1" pin="5/PWM"/>
 </segment>
 </net>
@@ -3040,8 +3040,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <junction x="360.68" y="144.78"/>
 </segment>
 <segment>
-<wire x1="429.26" y1="180.34" x2="419.1" y2="180.34" width="0.1524" layer="91"/>
-<label x="419.1" y="180.34" size="1.778" layer="91" rot="R180" xref="yes"/>
+<wire x1="561.34" y1="182.88" x2="558.8" y2="182.88" width="0.1524" layer="91"/>
+<label x="558.8" y="182.88" size="1.778" layer="91" rot="R180" xref="yes"/>
 <pinref part="U$38" gate="G$1" pin="4/CAN-RX/PWM"/>
 </segment>
 </net>
@@ -3073,8 +3073,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </segment>
 <segment>
 <pinref part="U$38" gate="G$1" pin="8/TX3"/>
-<wire x1="429.26" y1="170.18" x2="414.02" y2="170.18" width="0.1524" layer="91"/>
-<label x="414.02" y="170.18" size="1.778" layer="91" rot="R180" xref="yes"/>
+<wire x1="561.34" y1="172.72" x2="558.8" y2="172.72" width="0.1524" layer="91"/>
+<label x="558.8" y="172.72" size="1.778" layer="91" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$51" class="0">
@@ -3261,8 +3261,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <junction x="360.68" y="185.42"/>
 </segment>
 <segment>
-<wire x1="429.26" y1="182.88" x2="416.56" y2="182.88" width="0.1524" layer="91"/>
-<label x="416.56" y="182.88" size="1.778" layer="91" rot="R180" xref="yes"/>
+<wire x1="561.34" y1="185.42" x2="558.8" y2="185.42" width="0.1524" layer="91"/>
+<label x="558.8" y="185.42" size="1.778" layer="91" rot="R180" xref="yes"/>
 <pinref part="U$38" gate="G$1" pin="3/CAN-TX/PWM"/>
 </segment>
 </net>
@@ -3367,8 +3367,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </segment>
 <segment>
 <pinref part="U$38" gate="G$1" pin="7/RX3"/>
-<wire x1="429.26" y1="172.72" x2="426.72" y2="172.72" width="0.1524" layer="91"/>
-<label x="426.72" y="172.72" size="1.778" layer="91" rot="R180" xref="yes"/>
+<wire x1="561.34" y1="175.26" x2="558.8" y2="175.26" width="0.1524" layer="91"/>
+<label x="558.8" y="175.26" size="1.778" layer="91" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="COL1" class="0">
@@ -3401,8 +3401,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </segment>
 <segment>
 <pinref part="U$38" gate="G$1" pin="14/A0"/>
-<wire x1="429.26" y1="154.94" x2="416.56" y2="154.94" width="0.1524" layer="91"/>
-<label x="416.56" y="154.94" size="1.778" layer="91" rot="R180" xref="yes"/>
+<wire x1="561.34" y1="157.48" x2="558.8" y2="157.48" width="0.1524" layer="91"/>
+<label x="558.8" y="157.48" size="1.778" layer="91" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="COL2" class="0">
@@ -3435,8 +3435,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </segment>
 <segment>
 <pinref part="U$38" gate="G$1" pin="15/A1/T"/>
-<wire x1="429.26" y1="152.4" x2="419.1" y2="152.4" width="0.1524" layer="91"/>
-<label x="419.1" y="152.4" size="1.778" layer="91" rot="R180" xref="yes"/>
+<wire x1="561.34" y1="154.94" x2="558.8" y2="154.94" width="0.1524" layer="91"/>
+<label x="558.8" y="154.94" size="1.778" layer="91" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="COL3" class="0">
@@ -3468,8 +3468,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </segment>
 <segment>
 <pinref part="U$38" gate="G$1" pin="16/A2/T"/>
-<wire x1="429.26" y1="149.86" x2="421.64" y2="149.86" width="0.1524" layer="91"/>
-<label x="421.64" y="149.86" size="1.778" layer="91" rot="R180" xref="yes"/>
+<wire x1="561.34" y1="152.4" x2="558.8" y2="152.4" width="0.1524" layer="91"/>
+<label x="558.8" y="152.4" size="1.778" layer="91" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="COL4" class="0">
@@ -3502,8 +3502,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </segment>
 <segment>
 <pinref part="U$38" gate="G$1" pin="17/A3/T"/>
-<wire x1="429.26" y1="147.32" x2="424.18" y2="147.32" width="0.1524" layer="91"/>
-<label x="424.18" y="147.32" size="1.778" layer="91" rot="R180" xref="yes"/>
+<wire x1="561.34" y1="149.86" x2="558.8" y2="149.86" width="0.1524" layer="91"/>
+<label x="558.8" y="149.86" size="1.778" layer="91" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="COL5" class="0">
@@ -3536,8 +3536,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </segment>
 <segment>
 <pinref part="U$38" gate="G$1" pin="25/T/PWM"/>
-<wire x1="474.98" y1="129.54" x2="477.52" y2="129.54" width="0.1524" layer="91"/>
-<label x="477.52" y="129.54" size="1.778" layer="91" xref="yes"/>
+<wire x1="607.06" y1="132.08" x2="609.6" y2="132.08" width="0.1524" layer="91"/>
+<label x="609.6" y="132.08" size="1.778" layer="91" xref="yes"/>
 </segment>
 </net>
 <net name="COL6" class="0">
@@ -3569,8 +3569,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </segment>
 <segment>
 <pinref part="U$38" gate="G$1" pin="26/A15"/>
-<wire x1="474.98" y1="132.08" x2="477.52" y2="132.08" width="0.1524" layer="91"/>
-<label x="477.52" y="132.08" size="1.778" layer="91" xref="yes"/>
+<wire x1="607.06" y1="134.62" x2="609.6" y2="134.62" width="0.1524" layer="91"/>
+<label x="609.6" y="134.62" size="1.778" layer="91" xref="yes"/>
 </segment>
 </net>
 <net name="COL7" class="0">
@@ -3604,8 +3604,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </segment>
 <segment>
 <pinref part="U$38" gate="G$1" pin="21/A7/PWM"/>
-<wire x1="429.26" y1="137.16" x2="419.1" y2="137.16" width="0.1524" layer="91"/>
-<label x="419.1" y="137.16" size="1.778" layer="91" rot="R180" xref="yes"/>
+<wire x1="561.34" y1="139.7" x2="558.8" y2="139.7" width="0.1524" layer="91"/>
+<label x="558.8" y="139.7" size="1.778" layer="91" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="COL8" class="0">
@@ -3637,8 +3637,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </segment>
 <segment>
 <pinref part="U$38" gate="G$1" pin="20/A6/PWM"/>
-<wire x1="429.26" y1="139.7" x2="416.56" y2="139.7" width="0.1524" layer="91"/>
-<label x="416.56" y="139.7" size="1.778" layer="91" rot="R180" xref="yes"/>
+<wire x1="561.34" y1="142.24" x2="558.8" y2="142.24" width="0.1524" layer="91"/>
+<label x="558.8" y="142.24" size="1.778" layer="91" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="COL9" class="0">
@@ -3670,8 +3670,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </segment>
 <segment>
 <pinref part="U$38" gate="G$1" pin="12/MISO"/>
-<wire x1="429.26" y1="160.02" x2="424.18" y2="160.02" width="0.1524" layer="91"/>
-<label x="424.18" y="160.02" size="1.778" layer="91" rot="R180" xref="yes"/>
+<wire x1="561.34" y1="162.56" x2="558.8" y2="162.56" width="0.1524" layer="91"/>
+<label x="558.8" y="162.56" size="1.778" layer="91" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="COL10" class="0">
@@ -3703,8 +3703,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </segment>
 <segment>
 <pinref part="U$38" gate="G$1" pin="11/MOSI"/>
-<wire x1="429.26" y1="162.56" x2="421.64" y2="162.56" width="0.1524" layer="91"/>
-<label x="421.64" y="162.56" size="1.778" layer="91" rot="R180" xref="yes"/>
+<wire x1="561.34" y1="165.1" x2="558.8" y2="165.1" width="0.1524" layer="91"/>
+<label x="558.8" y="165.1" size="1.778" layer="91" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="COL11" class="0">
@@ -3735,8 +3735,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </segment>
 <segment>
 <pinref part="U$38" gate="G$1" pin="10/TX2/PWM"/>
-<wire x1="429.26" y1="165.1" x2="419.1" y2="165.1" width="0.1524" layer="91"/>
-<label x="419.1" y="165.1" size="1.778" layer="91" rot="R180" xref="yes"/>
+<wire x1="561.34" y1="167.64" x2="558.8" y2="167.64" width="0.1524" layer="91"/>
+<label x="558.8" y="167.64" size="1.778" layer="91" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="COL12" class="0">
@@ -3769,8 +3769,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </segment>
 <segment>
 <pinref part="U$38" gate="G$1" pin="9/RX2/PWM"/>
-<wire x1="429.26" y1="167.64" x2="416.56" y2="167.64" width="0.1524" layer="91"/>
-<label x="416.56" y="167.64" size="1.778" layer="91" rot="R180" xref="yes"/>
+<wire x1="561.34" y1="170.18" x2="558.8" y2="170.18" width="0.1524" layer="91"/>
+<label x="558.8" y="170.18" size="1.778" layer="91" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$119" class="0">
@@ -3911,8 +3911,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <junction x="360.68" y="215.9"/>
 </segment>
 <segment>
-<wire x1="429.26" y1="185.42" x2="414.02" y2="185.42" width="0.1524" layer="91"/>
-<label x="414.02" y="185.42" size="1.778" layer="91" rot="R180" xref="yes"/>
+<wire x1="561.34" y1="187.96" x2="558.8" y2="187.96" width="0.1524" layer="91"/>
+<label x="558.8" y="187.96" size="1.778" layer="91" rot="R180" xref="yes"/>
 <pinref part="U$38" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -3948,8 +3948,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </segment>
 <segment>
 <pinref part="U$38" gate="G$1" pin="19/A5/T/SCL0"/>
-<wire x1="429.26" y1="142.24" x2="414.02" y2="142.24" width="0.1524" layer="91"/>
-<label x="414.02" y="142.24" size="1.778" layer="91" rot="R180" xref="yes"/>
+<wire x1="561.34" y1="144.78" x2="558.8" y2="144.78" width="0.1524" layer="91"/>
+<label x="558.8" y="144.78" size="1.778" layer="91" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$41" class="0">
@@ -3979,6 +3979,13 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="63.5" y1="226.06" x2="63.5" y2="223.52" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="GND" class="0">
+<segment>
+<pinref part="SUPPLY1" gate="GND" pin="GND"/>
+<wire x1="609.6" y1="185.42" x2="607.06" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="U$38" gate="G$1" pin="GND"/>
+</segment>
+</net>
 <net name="N$39" class="0">
 <segment>
 <pinref part="SW2" gate="G$1" pin="2"/>
@@ -3989,8 +3996,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <net name="COL14" class="0">
 <segment>
 <pinref part="U$38" gate="G$1" pin="22/A8/T/PWM"/>
-<wire x1="429.26" y1="134.62" x2="424.18" y2="134.62" width="0.1524" layer="91"/>
-<label x="424.18" y="134.62" size="1.778" layer="91" rot="R180" xref="yes"/>
+<wire x1="561.34" y1="137.16" x2="558.8" y2="137.16" width="0.1524" layer="91"/>
+<label x="558.8" y="137.16" size="1.778" layer="91" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$66" gate="G$1" pin="PIN-1"/>
@@ -4022,8 +4029,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <net name="COL15" class="0">
 <segment>
 <pinref part="U$38" gate="G$1" pin="23/A9/T/PWM"/>
-<wire x1="429.26" y1="132.08" x2="426.72" y2="132.08" width="0.1524" layer="91"/>
-<label x="426.72" y="132.08" size="1.778" layer="91" rot="R180" xref="yes"/>
+<wire x1="561.34" y1="134.62" x2="558.8" y2="134.62" width="0.1524" layer="91"/>
+<label x="558.8" y="134.62" size="1.778" layer="91" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$86" gate="G$1" pin="PIN-1"/>
@@ -4199,129 +4206,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="383.54" y1="193.04" x2="383.54" y2="190.5" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="GND" class="0">
-<segment>
-<pinref part="U$38" gate="G$1" pin="GND"/>
-<pinref part="SUPPLY1" gate="GND" pin="GND"/>
-<wire x1="474.98" y1="182.88" x2="485.14" y2="182.88" width="0.1524" layer="91"/>
-</segment>
-</net>
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="101,1,416.56,116.84,H5,MOUNT,,,,"/>
-<approved hash="101,1,416.56,109.22,H6,MOUNT,,,,"/>
-<approved hash="101,1,416.56,101.6,H7,MOUNT,,,,"/>
-<approved hash="101,1,416.56,93.98,H8,MOUNT,,,,"/>
-<approved hash="101,1,416.56,86.36,H1,MOUNT,,,,"/>
-<approved hash="101,1,416.56,76.2,H2,MOUNT,,,,"/>
-<approved hash="101,1,416.56,68.58,H3,MOUNT,,,,"/>
-<approved hash="204,1,474.98,190.5,U$38,VIN,,,,"/>
-<approved hash="204,1,474.98,170.18,U$38,AGND,,,,"/>
-<approved hash="204,1,474.98,187.96,U$38,3.3V,,,,"/>
-<approved hash="204,1,474.98,185.42,U$38,VBAT,,,,"/>
-<approved hash="204,1,474.98,172.72,U$38,AREF,,,,"/>
-<approved hash="204,1,474.98,193.04,U$38,VUSB,,,,"/>
-<approved hash="106,1,474.98,182.88,GND,,,,,"/>
-<approved hash="106,1,485.14,182.88,GND,,,,,"/>
-<approved hash="113,1,95.2271,154.94,D4,,,,,"/>
-<approved hash="113,1,115.547,154.94,D5,,,,,"/>
-<approved hash="113,1,135.867,154.94,D6,,,,,"/>
-<approved hash="113,1,153.647,154.94,D7,,,,,"/>
-<approved hash="113,1,173.967,154.94,D8,,,,,"/>
-<approved hash="113,1,194.287,154.94,D9,,,,,"/>
-<approved hash="113,1,214.607,154.94,D10,,,,,"/>
-<approved hash="113,1,234.927,154.94,D11,,,,,"/>
-<approved hash="113,1,255.247,154.94,D12,,,,,"/>
-<approved hash="113,1,273.027,154.94,D13,,,,,"/>
-<approved hash="113,1,293.347,154.94,D14,,,,,"/>
-<approved hash="113,1,313.667,154.94,D15,,,,,"/>
-<approved hash="113,1,333.987,154.94,D16,,,,,"/>
-<approved hash="113,1,95.2271,114.3,D17,,,,,"/>
-<approved hash="113,1,115.547,114.3,D18,,,,,"/>
-<approved hash="113,1,135.867,114.3,D19,,,,,"/>
-<approved hash="113,1,153.647,114.3,D20,,,,,"/>
-<approved hash="113,1,173.967,114.3,D21,,,,,"/>
-<approved hash="113,1,194.287,114.3,D22,,,,,"/>
-<approved hash="113,1,214.607,114.3,D23,,,,,"/>
-<approved hash="113,1,234.927,114.3,D24,,,,,"/>
-<approved hash="113,1,255.247,114.3,D25,,,,,"/>
-<approved hash="113,1,273.027,114.3,D26,,,,,"/>
-<approved hash="113,1,293.347,114.3,D27,,,,,"/>
-<approved hash="113,1,95.2271,76.2,D28,,,,,"/>
-<approved hash="113,1,115.547,76.2,D29,,,,,"/>
-<approved hash="113,1,135.867,76.2,D30,,,,,"/>
-<approved hash="113,1,153.647,76.2,D31,,,,,"/>
-<approved hash="113,1,173.967,76.2,D32,,,,,"/>
-<approved hash="113,1,194.287,76.2,D33,,,,,"/>
-<approved hash="113,1,214.607,76.2,D34,,,,,"/>
-<approved hash="113,1,234.927,76.2,D35,,,,,"/>
-<approved hash="113,1,255.247,76.2,D36,,,,,"/>
-<approved hash="113,1,273.027,76.2,D37,,,,,"/>
-<approved hash="113,1,62.2071,154.94,D1,,,,,"/>
-<approved hash="113,1,62.2071,114.3,D2,,,,,"/>
-<approved hash="113,1,62.2071,76.2,D3,,,,,"/>
-<approved hash="113,1,293.347,76.2,D38,,,,,"/>
-<approved hash="113,1,318.747,114.3,D39,,,,,"/>
-<approved hash="113,1,95.2271,190.5,D40,,,,,"/>
-<approved hash="113,1,115.547,190.5,D41,,,,,"/>
-<approved hash="113,1,135.867,190.5,D42,,,,,"/>
-<approved hash="113,1,153.647,190.5,D43,,,,,"/>
-<approved hash="113,1,173.967,190.5,D44,,,,,"/>
-<approved hash="113,1,194.287,190.5,D45,,,,,"/>
-<approved hash="113,1,214.607,190.5,D46,,,,,"/>
-<approved hash="113,1,234.927,190.5,D47,,,,,"/>
-<approved hash="113,1,255.247,190.5,D48,,,,,"/>
-<approved hash="113,1,273.027,190.5,D49,,,,,"/>
-<approved hash="113,1,293.347,190.5,D50,,,,,"/>
-<approved hash="113,1,313.667,190.5,D51,,,,,"/>
-<approved hash="113,1,333.987,190.5,D52,,,,,"/>
-<approved hash="113,1,62.2071,190.5,D53,,,,,"/>
-<approved hash="113,1,62.2071,40.64,D54,,,,,"/>
-<approved hash="113,1,95.2271,40.64,D55,,,,,"/>
-<approved hash="113,1,115.547,40.64,D56,,,,,"/>
-<approved hash="113,1,133.327,40.64,D57,,,,,"/>
-<approved hash="113,1,153.647,38.1,D58,,,,,"/>
-<approved hash="113,1,173.967,38.1,D59,,,,,"/>
-<approved hash="113,1,95.2271,218.44,D74,,,,,"/>
-<approved hash="113,1,115.547,220.98,D75,,,,,"/>
-<approved hash="113,1,135.867,220.98,D76,,,,,"/>
-<approved hash="113,1,153.647,220.98,D77,,,,,"/>
-<approved hash="113,1,173.967,220.98,D78,,,,,"/>
-<approved hash="113,1,194.287,220.98,D79,,,,,"/>
-<approved hash="113,1,214.607,220.98,D80,,,,,"/>
-<approved hash="113,1,234.927,220.98,D81,,,,,"/>
-<approved hash="113,1,255.247,220.98,D82,,,,,"/>
-<approved hash="113,1,273.027,220.98,D83,,,,,"/>
-<approved hash="113,1,293.347,220.98,D84,,,,,"/>
-<approved hash="113,1,313.667,220.98,D85,,,,,"/>
-<approved hash="113,1,62.2071,220.98,D87,,,,,"/>
-<approved hash="113,1,194.287,38.1,D67,,,,,"/>
-<approved hash="113,1,212.575,39.37,D60,,,,,"/>
-<approved hash="113,1,333.987,220.98,D61,,,,,"/>
-<approved hash="113,1,255.247,38.1,D63,,,,,"/>
-<approved hash="113,1,234.927,38.1,D64,,,,,"/>
-<approved hash="113,1,275.567,38.1,D66,,,,,"/>
-<approved hash="113,1,295.887,38.1,D68,,,,,"/>
-<approved hash="113,1,316.207,38.1,D69,,,,,"/>
-<approved hash="113,1,336.527,38.1,D70,,,,,"/>
-<approved hash="113,1,359.387,38.1,D71,,,,,"/>
-<approved hash="113,1,382.247,38.1,D72,,,,,"/>
-<approved hash="113,1,382.247,71.12,D73,,,,,"/>
-<approved hash="113,1,359.387,71.12,D86,,,,,"/>
-<approved hash="113,1,336.527,71.12,D88,,,,,"/>
-<approved hash="113,1,316.207,72.136,D89,,,,,"/>
-<approved hash="113,1,336.527,111.76,D90,,,,,"/>
-<approved hash="113,1,359.387,111.76,D91,,,,,"/>
-<approved hash="113,1,382.247,111.76,D92,,,,,"/>
-<approved hash="113,1,359.387,152.4,D93,,,,,"/>
-<approved hash="113,1,382.247,152.4,D94,,,,,"/>
-<approved hash="113,1,359.387,187.96,D95,,,,,"/>
-<approved hash="113,1,382.247,187.96,D96,,,,,"/>
-<approved hash="113,1,359.387,218.44,D97,,,,,"/>
-<approved hash="113,1,382.247,218.44,D98,,,,,"/>
-</errors>
 </schematic>
 </drawing>
 <compatibility>
